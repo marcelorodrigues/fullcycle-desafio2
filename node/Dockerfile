@@ -11,7 +11,7 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 COPY . /usr/src/app
 
-RUN npm install express --save
+#RUN npm install express --save
 
 EXPOSE 3000
 
